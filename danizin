@@ -1,3 +1,7 @@
+#Receba do usuário duas matrizes 3x3. Exiba uma terceira matriz composta
+pela soma das duas primeiras.
+
+
 import soma_mat           
 
 m1 = [[]for k in range (0,3)]
@@ -13,7 +17,7 @@ for x in range (0,3):
             b = int(input('digite os números da matriz 2 :  '))
             m2[k].append(b)            
 print()
-soma_ma = def soma_mat 
+soma_ma = soma_mat.soma_mat(m1,m2)
 print(f'primeira matriz é: {m1}')
 print(f'segunda matriz é: {m2}')
 print(f'soma das matrizes é de : {soma_ma}')
